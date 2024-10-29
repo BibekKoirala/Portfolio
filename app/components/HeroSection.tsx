@@ -17,7 +17,8 @@ export default function HeroSection() {
         </h2>
         <p className="text-lg md:text-xl mb-6">{INFO.homepage.description}</p>
         <a
-          href="assets/download/browney.txt"
+          href="https://drive.google.com/file/d/1YAGlKCRNf-vBkwAESSp5-hc-QXY7x1uo/view"
+          target="_blank"
           download
           className="inline-block bg-color4 text-color6 px-6 py-2 font-semibold rounded-md hover:bg-opacity-90 transition-colors"
         >

@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import { FaLaptopCode, FaLink, FaRobot, FaRProject } from "react-icons/fa";
+import { FaLaptopCode, FaLink, FaRobot } from "react-icons/fa";
 import { badgesComponents } from "../badges";
 
 interface ProjectProps {
@@ -14,7 +14,7 @@ interface ProjectProps {
 }
 
 const Project = (props: ProjectProps) => {
-	const { logo, title, description, badges, link, demo, poster } = props;
+	const { title, description, badges, link, demo, poster } = props;
 	const [isModalOpen, setModalOpen] = useState(false);
 
 	const openModal = () => setModalOpen(true);

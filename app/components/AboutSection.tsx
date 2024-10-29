@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCode, FaCss3Alt, FaDatabase, FaFacebook, FaFileCode, FaGithub, FaHtml5, FaInstagram, FaJs, FaLinkedin, FaNodeJs, FaPython, FaReact, FaRobot, FaTwitter } from "react-icons/fa";
+import { FaCode, FaCss3Alt, FaFacebook, FaGithub, FaHtml5, FaInstagram, FaJs, FaLinkedin, FaNodeJs, FaPython, FaReact, FaRobot } from "react-icons/fa";
 import INFO from "../MyInfo";
 import Works from "./Works";
 import { RiNextjsFill } from "react-icons/ri";
